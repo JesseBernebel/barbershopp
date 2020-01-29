@@ -1,0 +1,36 @@
+.articulo__autor{
+    padding: 60px 50px;
+    &-retrato{
+        text-align: center;
+    }
+    &-info{
+        text-align: center;
+    }
+    &-retrato__imagen{
+        border-radius: 100%;
+        width: 130px;
+        height: auto;
+    }
+    &-link{
+        display: block;
+    }
+}
+.paginacion{
+    @include mi__centrar;
+        background-color: $platinum;
+        height: 200px;
+    }
+
+@media (min-width: 768px){
+    .articulo__autor-retrato__imagen{
+        width: 180px;
+    }
+    .articulo__autor-info{
+        text-align: left;
+        padding-top: 50px;
+    }
+    .descripcion__autor-descripcion__texto{
+        padding-top: 78px;
+    }
+}
+
