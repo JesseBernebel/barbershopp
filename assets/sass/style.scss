@@ -1,0 +1,39 @@
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins',
+  'abstracts/placeholders';
+
+@import
+  'vendors/bootstrap',
+  'vendors/jquery-ui',
+  'vendors/bootstrap-4.4.1/scss/bootstrap';
+
+  
+
+@import
+  'base/reset',
+  'base/typography',
+  'base/_base.scss';
+
+@import
+  'layout/navigation',
+  'layout/grid',
+  'layout/header',
+  'layout/footer',
+  'layout/sidebar',
+  'layout/forms';
+
+@import
+  'components/buttons',
+  'components/carousel',
+  'components/cover',
+  'components/dropdown';
+
+@import
+  'pages/home',
+  'pages/contact';
+
+@import
+  'themes/theme',
+  'themes/admin';

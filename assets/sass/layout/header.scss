@@ -1,0 +1,25 @@
+header {
+
+    @include mi_centrar;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+
+    i{
+        margin-top: 20px;
+    
+    }
+    
+}
